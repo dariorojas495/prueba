@@ -1,0 +1,10 @@
+.carousel-item {
+  text-align: center;
+  padding: 20px;
+}
+.step-image {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}

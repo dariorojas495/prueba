@@ -1,0 +1,33 @@
+2025-03-14 16:12:22,115 - INFO - CSV Analysis:
+Columns: ['PatientID', 'Age', 'Weight', 'Height', 'Cholesterol', 'HeartRate']
+Rows: 52
+ - Age: Average = 31.08, Std Dev = 7.41
+ - Weight: Average = 75.96, Std Dev = 4.49
+ - Height: Average = 169.60, Std Dev = 4.82
+ - Cholesterol: Average = 198.56, Std Dev = 8.65
+ - HeartRate: Average = 87.60, Std Dev = 16.14
+ - PatientID: Unique Values = 52
+2025-03-14 16:12:22,133 - INFO - DICOM Analysis:
+Patient Name: Anonymous
+Study Date: 20090925
+Modality: MR
+Tag 0x10, 0x10: Anonymous
+Tag 0x8, 0x60: MR
+Extracted image saved to C:\Users\DARK\Desktop\ejercicios\2\sample-02-dicom-2.png
+2025-03-14 16:12:22,199 - INFO - DICOM Analysis:
+Patient Name: Rubo DEMO
+Study Date: 19941013
+Modality: XA
+Tag 0x10, 0x10: Rubo DEMO
+Tag 0x8, 0x60: XA
+Extracted image saved to C:\Users\DARK\Desktop\ejercicios\2\sample-02-dicom.png
+2025-03-14 16:12:22,205 - INFO - Folder: C:\Users\DARK\Desktop\ejercicios\2
+Number of elements: 5
+Files:
+ - ejercicio.py (0.00 MB, Last Modified: 2025-03-14 16:11:29.112328)
+ - logfile.log (0.00 MB, Last Modified: 2025-03-14 16:12:22.103556)
+ - sample-02-csv.csv (0.00 MB, Last Modified: 2024-08-25 11:38:36)
+ - sample-02-dicom-2.dcm (0.57 MB, Last Modified: 2017-06-07 20:17:34)
+ - sample-02-dicom.dcm (1.62 MB, Last Modified: 1998-01-19 08:37:00)
+Folders:
+

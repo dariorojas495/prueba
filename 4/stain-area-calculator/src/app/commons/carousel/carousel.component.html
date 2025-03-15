@@ -1,0 +1,20 @@
+<mat-vertical-stepper>
+  <mat-step label="Subir Imagen">
+    <app-upload-image (imageUploaded)="onImageUploaded($event)"></app-upload-image>
+    <button mat-button matStepperNext [disabled]="!imageData">Siguiente</button>
+  </mat-step>
+
+  <mat-step label="Generar Puntos">
+    <app-stain-calculator
+      [imageData]="imageData"
+      (areaCalculated)="onAreaCalculated($event)">
+    </app-stain-calculator>
+    <button mat-button matStepperPrevious>Anterior</button>
+    <button mat-button matStepperNext [disabled]="!calculatedArea">Siguiente</button>
+  </mat-step>
+
+  <mat-step label="Resultados">
+    <app-results-table [results]="results"></app-results-table>
+    <button mat-button matStepperPrevious>Anterior</button>
+  </mat-step>
+</mat-vertical-stepper>

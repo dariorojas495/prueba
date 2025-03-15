@@ -1,0 +1,10 @@
+<table>
+  <tr>
+    <th>Área Calculada</th>
+    <th>Fecha y Hora</th>
+  </tr>
+  <tr *ngFor="let result of results">
+    <td>{{ result.area }}</td>
+    <td>{{ result.timestamp | date:'short' }}</td>
+  </tr>
+</table>
